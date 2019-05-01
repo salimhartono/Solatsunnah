@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tahajjud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tahajjud"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/witir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/witir"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/rawatib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rawatib"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/dhuha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dhuha"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/istikhoroh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/istikhoroh"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tahiyyatul_masjid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tahiyyatul_masjid"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/sholat_syuruq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sholat_syuruq"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
