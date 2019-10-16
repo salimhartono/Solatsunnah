@@ -14,6 +14,8 @@ public class Deskripsi extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_deskripsi);
+                getSupportActionBar().setDisplayShowHomeEnabled(true);
+
 
 //        todo : inisialisasi
 
